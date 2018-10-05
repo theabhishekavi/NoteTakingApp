@@ -65,7 +65,7 @@ public class NotesAdapter extends BaseAdapter {
         });
 
         noteTitle.setText(currentNote.getTitle());
-        noteTime.setText(currentNote.getTime());
+        noteTime.setText((currentNote.getTime()));
 
         return inflatedView;
     }
